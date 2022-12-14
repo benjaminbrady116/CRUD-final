@@ -3,9 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { nanoid } from 'nanoid';
 import React, {useState, useEffect} from 'react';
-import AddStudent from './Components/AddStudent';
+import AddStudent from '../src/AddStudent';
 import _ from 'lodash';
-import Student from './Components/student';
+import Student from '../src/student';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
